@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+    <!-- Porta da interface web -->
+    <entry key='web.port'>8082</entry>
+
+    <!-- Banco H2 local (docker padrão) -->
+    <entry key='database.driver'>org.h2.Driver</entry>
+    <entry key='database.url'>jdbc:h2:/opt/traccar/data/database</entry>
+    <entry key='database.user'>sa</entry>
+    <entry key='database.password'></entry>
+
+    <!-- Protocolo OsmAnd -->
+    <entry key='osmand.enabled'>true</entry>
+    <entry key='osmand.port'>5055</entry>
+
+    <!-- Tempo de timeout -->
+    <entry key='status.timeout'>120</entry>
+
+    <!-- CONFIGURAÇÃO DO MAPA -->
+    <entry key='web.map.type'>osm</entry>
+    <entry key='web.map.url'>https://tile.openstreetmap.org/{z}/{x}/{y}.png</entry>
+
+</properties>
